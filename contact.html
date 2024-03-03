@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="/favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+        <title>Hidden gardens in Kraków | Kraków tips&amp;tricks</title>
+        <meta name="robots" content="index,follow">
+        <meta name="description" content="My blog about Kraków - the city I live">
+        <meta property="keywords" content="Kraków, Cracow, sightseeing, relax, gardens, tourist guide">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Klee+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">       
+        <link rel="stylesheet" href="./styles/styles.css">
+        <script defer="" src="./scripts/scripts.js"></script>
+    </head>
+    <body class="contact">
+        <header class="header">
+            <div class="header-inner">
+                <a href="./index.html"><h1 class="title">Hidden gardens in Kraków</h1></a>
+                <div class="nav-trigger" id="nav-trigger"><span></span></div>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="./about.html">About me</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <section class="articles-wrapper">
+                <article>
+                    <h2 class="article-title">Contact form</h2>
+                    <form class="form">
+                        <label class="input-label" for="name">Name:</label>
+                        <input class="input" type="text" id="name" name="name" required>
+                        <label class="input-label" for="email">Email Address:</label>
+                        <input class="input" type="email" id="email" name="email" required>
+                        <label class="input-label" for="message">Message:</label>
+                        <textarea class="input" id="message" name="message" required></textarea>
+                        <button class="button" type="submit" id="submit">Submit</button>
+                    </form>
+                    
+
+                </article>
+
+            </section>
+        </main>
+        <footer class="footer">
+            <p>&copy; 2024 Kraków tips and tricks from Marta</p>
+        </footer>
+        <div class="modal" id="modal-contact">
+            <div class="overlay"></div>
+            <div class="modal-inner success-message">
+                <h2>Success</h2>
+                <p>Thank you for contacting me</p>
+            </div>
+            <div class="modal-inner error-message">
+                <h2>Error</h2>
+                <p>Please fill all fields</p>
+            </div>
+        </div>
+    </body>
+</html>
